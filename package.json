@@ -1,0 +1,28 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt generate",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .vue .",
+    "start": "node .output/server/index.mjs",
+    "test": "yarn lint --ext .vue"
+  },
+  "devDependencies": {
+    "@nuxt/bridge": "npm:@nuxt/bridge-edge@0.0.0-27183684.49f7b39",
+    "@nuxtjs/eslint-config": "^7.0.0",
+    "@nuxtjs/tailwindcss": "^4.2.1",
+    "autoprefixer": "^10.4.0",
+    "nuxt-edge": "latest",
+    "sass": "1.43.2",
+    "sass-loader": "10.1.1"
+  },
+  "engines": {
+    "node": "=14",
+    "npm": ">=6.0.0"
+  },
+  "dependencies": {
+    "vue-markdown": "^2.2.4",
+    "nuxt": "^3.x.x"
+  }
+}
